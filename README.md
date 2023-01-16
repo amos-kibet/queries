@@ -1,6 +1,6 @@
 # Queries
 
-A sample application to learn 7 practice writing composable Ecto queries
+A sample application to learn & practice writing composable Ecto queries
 
 To start your Phoenix server:
 
