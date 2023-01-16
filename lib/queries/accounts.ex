@@ -19,6 +19,7 @@ defmodule Queries.Accounts do
 
   def user_has_posts?(user_id) do
     UserQueries.with_existing_posts()
-    # now what?
+    |> UserQueries.with_id(user_id)
+    |> Repo.exists?()
   end
 end
