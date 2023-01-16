@@ -2,6 +2,10 @@
 
 A sample application to learn & practice writing composable Ecto queries
 
+See below for a sample of relations in database tables that call for complex query composition
+
+![db_model_diagram](db_model_diagram.png)
+
 To start your Phoenix server:
 
 - Install dependencies with `mix deps.get`
